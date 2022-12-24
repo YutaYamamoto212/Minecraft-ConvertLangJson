@@ -3,6 +3,9 @@ This tool allows you to convert Minecraft language files in different formats:
 - LANG: Java Edition 1.12.2 and below, and Bedrock Edition.  
 - JSON: Java Edition 1.13 and above.  
 
+# Where to download?
+You can go to [HERE](https://github.com/YutaYamamoto212/Minecraft-ConvertLangJson/releases) to download.
+
 # How to use?
 First of all, first confirm which operation you want to perform:
 - Convert LANG to JSON. 
