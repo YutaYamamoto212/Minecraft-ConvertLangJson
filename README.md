@@ -50,7 +50,7 @@ You removed the `input` directory, so the converter won't work. It will re-creat
 Please make sure that the directory where the converter is located has write permission, and there is no read-only file named `input` or `output`.
 
 5. **Getting `Error: No files available for conversion.` message.**  
-Please make sure the 'input' directory has one or more JSON file you want to convert, otherwise the converter will not work properly.
+Please make sure the `input` directory has one or more LANG/JSON file you want to convert, otherwise the converter will not work properly.
 
 6. **Getting `Warning: <Filename> is not a valid JSON file. Skipping it.` message.**  
 Make sure the JSON file is valid, otherwise it will be skipped. Please check for missing or extra commas, double quotes, colons and curly brackets and correct them.
