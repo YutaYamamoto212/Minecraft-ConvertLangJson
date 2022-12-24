@@ -7,28 +7,13 @@ This tool allows you to convert Minecraft language files in different formats:
 You can go to [HERE](https://github.com/YutaYamamoto212/Minecraft-ConvertLangJson/releases) to download.
 
 # How to use?
-First of all, first confirm which operation you want to perform:
-- Convert LANG to JSON. 
-- Convert JSON to LANG. 
+1. First of all, you need to install node.js. To get it, click [HERE](https://nodejs.org/).  
+2. To convert LANG to JSON, go to the `LANG to JSON` directory. To convert JSON to LANG, go to the `JSON to LANG` directory.
+3. Place the language files in LANG/JSON format to be converted in the 'input' directory. You can place more than one file. 
+4. Double click on `convert.bat` and it will do the conversion.
+5. The result of the conversion will be saved in the `output` directory.
 
-## Convert LANG to JSON
-First, you need to install node.js. To get it, click [HERE](https://nodejs.org/).  
-Second, go to the `LANG to JSON` directory.  
-Third, place the language files in LANG format to be converted in the `input` directory. You can place more than one file.  
-Fourth, double click on `convert.bat` and it will do the conversion.  
-Finally, the result of the conversion will be saved in the `output` directory.  
-
-- If you want to clear the `input` directory, double click on `clear_intput.bat`.
-- If you want to clear the `output` directory, double click on `clear_output.bat`.
-
-## Convert JSON to LANG
-First, you need to install node.js. To get it, click [HERE](https://nodejs.org/).  
-Second, go to the `JSON to LANG` directory.  
-Third, place the language files in JSON format to be converted in the 'input' directory. You can place more than one file.  
-Fourth, double click on `convert.bat` and it will do the conversion.  
-Finally, the result of the conversion will be saved in the `output` directory.  
-
-- If you want to clear the `input` directory, double click on `clear_intput.bat`.
+- If you want to clear the `input` directory, double click on `clear_input.bat`.
 - If you want to clear the `output` directory, double click on `clear_output.bat`.
 
 # Trobleshooting
