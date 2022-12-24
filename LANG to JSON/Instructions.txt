@@ -1,0 +1,34 @@
+Welcome to use JSON to LANG Converter.
+
+How to use?
+First, you need to install node.js. To get it: https://nodejs.org/
+Second, place the language files in LANG format to be converted in the 'input' directory. You can place more than one file.
+Third, double click on 'convert.bat' and it will do the conversion.
+Finally, the result of the conversion will be saved in the 'output' directory.
+
+If you want to clear the 'input' directory, double click on 'clear_intput.bat'.
+If you want to clear the 'output' directory, double click on 'clear_output.bat'.
+
+Trobleshooting
+1. I get an error when double clicking 'convert_lang_to_json.js'.
+Please double-click 'convert.bat' to run the conversion.
+
+2. 'node' is not recognized as an internal or external command.
+You may not have node.js installed, or your system environment variables may not be configured correctly.
+Please install node.js to fix the problem.
+If you are sure you have node.js installed and the problem continues, follow these steps:
+(1) Open Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables
+(2) In "User variables" or "System variables" find variable 'PATH' and add node.js folder path as value. Usually it is 'C:\Program Files\nodejs;'. If variable doesn't exists, create it.
+(3) Restart your computer.
+
+3. Error: The 'input' directory does not exist, so recreated it. Put one or more language files in LANG format into that directory you want to convert, and run the converter again.
+You removed the 'input' directory, so the converter won't work. It will re-create the directory, prompt you to place one or more LANG files to be converted, and then re-run the converter.
+
+4. Getting "An error occurred while creating the 'input' directory." or "An error occurred while creating the 'output' directory." message.
+Please make sure that the directory where the converter is located has write permission, and there is no read-only file named 'input' or 'output'.
+
+5. Error: No files available for conversion.
+Please make sure the 'input' directory has one or more LANG file you want to convert, otherwise the converter will not work properly.
+
+6. An error occurred while saving <Filename>.
+Make sure that the 'output' directory has write permissions and does not have a read-only file named the same as the file that will be saved.
