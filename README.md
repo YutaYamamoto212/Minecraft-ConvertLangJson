@@ -32,7 +32,7 @@ If you are sure you have node.js installed and the problem continues, follow the
 3. **Getting `Error: The 'input' directory does not exist, so recreated it. Put one or more language files in LANG/JSON format into that directory you want to convert, and run the converter again.` message.**  
 You removed the `input` directory, so the converter won't work. It will re-create the directory, prompt you to place one or more LANG/JSON files to be converted, and then re-run the converter.
 
-4. **Getting `An error occurred while creating the 'input'/'output directory.` message.**  
+4. **Getting `An error occurred while creating the 'input'/'output' directory.` message.**  
 Please make sure that the directory where the converter is located has write permission, and there is no read-only file named `input` or `output`.
 
 5. **Getting `Error: No files available for conversion.` message.**  
