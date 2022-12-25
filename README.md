@@ -24,9 +24,10 @@ Please double-click `convert.bat` to run the conversion.
 You may not have node.js installed, or your system environment variables may not be configured correctly.  
 Please install node.js to fix the problem.  
 If you are sure you have node.js installed and the problem continues, follow these steps:  
-(1) Open Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables  
-(2) In "User variables" or "System variables" find variable `PATH` and add node.js folder path as value. Usually it is `C:\Program Files\nodejs;`. If variable doesn't exists, create it.  
-(3) Restart your computer.  
+(1) Press `Windows` + `R` key, then type `control` to open Control Panel.
+(2) Go to System and Security -> System -> Advanced System Settings -> Environment Variables  
+(3) In "User variables" or "System variables" find variable `PATH` and add node.js folder path as value. Usually it is `C:\Program Files\nodejs;`. If variable doesn't exists, create it.  
+(4) Restart your computer.  
 
 3. **Getting `Error: The 'input' directory does not exist, so recreated it. Put one or more language files in LANG/JSON format into that directory you want to convert, and run the converter again.` message.**  
 You removed the `input` directory, so the converter won't work. It will re-create the directory, prompt you to place one or more LANG/JSON files to be converted, and then re-run the converter.
